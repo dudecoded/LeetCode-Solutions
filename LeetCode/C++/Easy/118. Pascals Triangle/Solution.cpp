@@ -1,17 +1,15 @@
 class Solution {
 public:
-    vector<vector<int>> generate(int numrows) {
-    vector<vector<int>>pas;
+    vector<vector<int>> generate(int numRows) {
+        vector<vector<int>>triangle;
+        for(int i =0;i<numRows;i++){
+            vector<int>rows(i+1,1);
+            for(int j=1;j<i;j++){
+                rows[j]=triangle[i-1][j-1]+triangle[i-1][j];
 
-    for(int r=0; r<numrows;r++){
-        vector<int>row(r+1,1);
-    
-    for(int c=1 ; c<r;c++){
-        row[c] = pas[r-1][c-1] + pas[r-1][c];
-    }
-
-    pas.push_back(row);
-    }
-    return pas;
+            }
+            triangle.push_back(rows);
+        }
+        return triangle;
     }
 };
