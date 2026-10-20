@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 5 / 76 (6.6%)
+- **Completed:** 6 / 76 (7.9%)
 
 ---
 
@@ -13,7 +13,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [x] [Set Matrix Zeroes](./C++/Medium/73. Set Matrix Zeroes/)
 - [x] [Pascal's Triangle](./C++/Easy/118. Pascals Triangle/)
 - [x] [Next Permutation](./C++/Medium/31. Next Permutation/)
-- [ ] Maximum Subarray
+- [x] [Maximum Subarray](./C++/Medium/53. Maximum Subarray/)
 - [ ] Sort Colors
 - [x] [Best Time to Buy and Sell Stock](./C++/Easy/121. Best Time to Buy and Sell Stock/)
 - [ ] Rotate Image
