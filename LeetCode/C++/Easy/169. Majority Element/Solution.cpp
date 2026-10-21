@@ -1,21 +1,18 @@
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
-       int  n=nums.size();
-        int count=0 , cand;
-        for(int i=0;i<n;i++){
-            if(count==0){
-                count=1;
-                cand=nums[i];
-            }
-            else{
-                if(cand==nums[i]){
-                    count++;
-                }
-                else
-                count--;
-            }
-        }
-        return cand;
+        int count =0;
+        int n = nums.size();
+       std::unordered_map<int, int> frequency;
+int x;
+    // Count occurrences of each number
+    for (int x : nums) {
+        frequency[x]++;
+    }
+for (auto const& [number, count] : frequency) {
+        if (count > n/2) {
+            return number;
+        }}
+        return 0;
     }
 };
