@@ -88,7 +88,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [ ] Plus One
 
 ### 📂 MODULE  3.4: FREQUENCYLIKE PROBLEMS Cont
-- [x] [Contains Duplicate](./Python/Easy/217. Contains Duplicate/)
+- [x] [Contains Duplicate](./C++/Easy/217. Contains Duplicate/)
 - [x] [Single Number](./Python/Easy/136. Single Number/)
 - [ ] Single Element in a Sorted Array
 - [x] [Majority Element](./C++/Easy/169. Majority Element/)
